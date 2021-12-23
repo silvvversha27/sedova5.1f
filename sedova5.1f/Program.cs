@@ -8,17 +8,17 @@ namespace sedova5._1
         {
             Console.WriteLine("Введите координаты сторон треугольника");
             Console.WriteLine("");
-            Console.WriteLine("Введите сторону а1");
+            Console.WriteLine("Введите сторону аx");
             double a1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите сторону а2");
+            Console.WriteLine("Введите сторону аy");
             double a2 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите сторону b1");
+            Console.WriteLine("Введите сторону bx");
             double b1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите сторону b2");
+            Console.WriteLine("Введите сторону by");
             double b2 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите сторону с1");
+            Console.WriteLine("Введите сторону сx");
             double c1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите сторону с2");
+            Console.WriteLine("Введите сторону сy");
             double c2 = double.Parse(Console.ReadLine());
             double a = Math.Sqrt(Math.Pow(a2 - a1, 2) + Math.Pow(b1 - b2, 2));
             double b = Math.Sqrt(Math.Pow(b2 - b1, 2) + Math.Pow(c1 - c2, 2));
